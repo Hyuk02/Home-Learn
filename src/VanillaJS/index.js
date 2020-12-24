@@ -1,9 +1,5 @@
-/* String
-const what = "JunHyeok";
-*/
-/* Boolean
-const wat = true;
-*/
-/* Float
-const wat = 55.1;
-*/
+function sayHello(name, age){
+    console.log('Hello!', name, "you have", age, "years of age.");
+}
+sayHello("JunHyeok", 15);
+console.log("Hi!");
