@@ -1,5 +1,7 @@
 function sayHello(name, age){
-    console.log('Hello!', name, "you have", age, "years of age.");
+    return `Hello ${name} you are ${age} years old`;
 }
-sayHello("JunHyeok", 15);
-console.log("Hi!");
+
+const greetJunHyeok = sayHello("JunHyeok", 23);
+
+console.log(greetJunHyeok);
